@@ -10,9 +10,9 @@ import MiniGit
 
 let documentURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
 
-let localRepoLocation = documentURL.appendingPathComponent("BigMac")
+let localRepoLocation = documentURL.appendingPathComponent("MiniGit-SampleApp")
 
-let remoteRepoLocation = "https://github.com/light-tech/BigMac.git"
+let remoteRepoLocation = "https://github.com/randymcmillan/MiniGit-SampleApp.git"
 
 // Do not do this in a real application, put the credentials somewhere safe
 // And possibly encrypt them or keychain them by subclassing CredentialsManager
